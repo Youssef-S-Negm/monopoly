@@ -1,0 +1,161 @@
+* {
+    font-size: 10px;
+}
+
+.h-full {
+    height: 100vh;
+}
+
+.bg-mint {
+    background-color: #D8EEEB;
+}
+
+.cell {
+    aspect-ratio: 1.2/1;
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.square-cell {
+    aspect-ratio: 1 / 1;
+}
+
+.cell,
+.square-cell {
+    width: 50px;
+    border: 1px solid black;
+}
+
+.corner-img {
+    width: 100%;
+    height: 100%;
+}
+
+.inverted {
+    transform: rotate(180deg);
+}
+
+.rotate-right {
+    transform: rotate(90deg);
+}
+
+.rotate-left {
+    transform: rotate(-90deg);
+}
+
+.background {
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 480px; */
+    /* width: 100%; */
+    /* transform: rotate(135deg); */
+}
+
+.card {
+    height: 80px;
+    aspect-ratio: 16/9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background .card:nth-child(1) {
+    background-color: skyblue;
+}
+
+.background .card:nth-child(2) {
+    background-color: orange;
+}
+
+.chance-img {
+    background-color: orange;
+}
+
+.card-img {
+    width: 50px;
+    aspect-ratio: 1 / 1;
+}
+
+.logo {
+    margin-bottom: 24px;
+    width: 400px;
+}
+
+.flex-col-rev {
+    flex-direction: column-reverse;
+}
+
+.header {
+    border: 1px solid black;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.bg-light-blue {
+    background-color: lightblue;
+}
+
+.bg-pink {
+    background-color: palevioletred;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.h-max {
+    height: 100%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-max {
+    width: 100%;
+}
+
+.h-30 {
+    height: 30%;
+}
+
+.flex-row-rev {
+    flex-direction: row-reverse;
+}
+
+.cell-img {
+    width: 50%;
+    height: 50%;
+}
