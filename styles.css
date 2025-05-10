@@ -87,10 +87,6 @@
     width: 400px;
 }
 
-.flex-col-rev {
-    flex-direction: column-reverse;
-}
-
 .header {
     border: 1px solid black;
 }
@@ -125,34 +121,6 @@
 
 .bg-green {
     background-color: green;
-}
-
-.flex-row {
-    flex-direction: row;
-}
-
-.flex-col {
-    flex-direction: column;
-}
-
-.h-max {
-    height: 100%;
-}
-
-.w-30 {
-    width: 30%;
-}
-
-.w-max {
-    width: 100%;
-}
-
-.h-30 {
-    height: 30%;
-}
-
-.flex-row-rev {
-    flex-direction: row-reverse;
 }
 
 .cell-img {
