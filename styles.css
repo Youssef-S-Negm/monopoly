@@ -1,9 +1,6 @@
 * {
-    font-size: 10px;
-}
-
-.h-full {
-    height: 100vh;
+    font-size: 1vw;
+    font-weight: bold;
 }
 
 .bg-mint {
@@ -12,11 +9,9 @@
 
 .cell {
     aspect-ratio: 1.2/1;
-    display: flex;
     overflow: hidden;
     text-align: center;
     align-items: center;
-    justify-content: space-between;
 }
 
 .square-cell {
@@ -25,7 +20,6 @@
 
 .cell,
 .square-cell {
-    width: 50px;
     border: 1px solid black;
 }
 
@@ -47,30 +41,20 @@
 }
 
 .background {
-    /* position: absolute; */
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* height: 480px; */
-    /* width: 100%; */
-    /* transform: rotate(135deg); */
+    transform: rotate(135deg);
 }
 
 .card {
-    height: 80px;
+    height: 10rem;
     aspect-ratio: 16/9;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.background .card:nth-child(1) {
-    background-color: skyblue;
-}
-
-.background .card:nth-child(2) {
-    background-color: orange;
 }
 
 .chance-img {
@@ -78,13 +62,14 @@
 }
 
 .card-img {
-    width: 50px;
+    width: 8rem;
     aspect-ratio: 1 / 1;
 }
 
 .logo {
-    margin-bottom: 24px;
-    width: 400px;
+    margin-bottom: 7rem;
+    margin-top: 7rem;
+    width: 60rem;
 }
 
 .header {
